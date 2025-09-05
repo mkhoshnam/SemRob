@@ -1,0 +1,2207 @@
+{
+  "cabinet": {
+    "class": "cabinet",
+    "joints": [
+      "door_finger_joint1",
+      "door_finger_joint2",
+      "door_hinge",
+      "doorhinge",
+      "drawer_finger_joint1",
+      "drawer_finger_joint2",
+      "drawer_slide",
+      "finger_joint1",
+      "finger_joint2",
+      "leftdoorhinge",
+      "rightdoorhinge",
+      "slidejoint"
+    ],
+    "instances": [
+      "cabinet_housing",
+      "cabinet_hinge",
+      "cabinet_open",
+      "drawer",
+      "drawer-3",
+      "panda_gripper",
+      "cabinet_hinge-3",
+      "panel",
+      "cabinet_single"
+    ],
+    "ontology": {
+      "object": {
+        "children": {
+          "drawer_finger_joint2": {
+            "description": "",
+            "state": "N/A",
+            "related_tasks": [],
+            "effects": {},
+            "children": {}
+          },
+          "door_hinge": {
+            "description": "",
+            "state": "N/A",
+            "related_tasks": [],
+            "effects": {},
+            "children": {}
+          },
+          "door_finger_joint2": {
+            "description": "",
+            "state": "N/A",
+            "related_tasks": [],
+            "effects": {},
+            "children": {}
+          },
+          "finger_joint1": {
+            "description": "",
+            "state": "N/A",
+            "related_tasks": [],
+            "effects": {},
+            "children": {}
+          },
+          "door_finger_joint1": {
+            "description": "",
+            "state": "N/A",
+            "related_tasks": [],
+            "effects": {},
+            "children": {}
+          },
+          "doorhinge": {
+            "description": "",
+            "state": "N/A",
+            "related_tasks": [],
+            "effects": {},
+            "children": {}
+          },
+          "leftdoorhinge": {
+            "description": "",
+            "state": "N/A",
+            "related_tasks": [],
+            "effects": {},
+            "children": {}
+          },
+          "drawer_finger_joint1": {
+            "description": "",
+            "state": "N/A",
+            "related_tasks": [],
+            "effects": {},
+            "children": {}
+          },
+          "drawer_slide": {
+            "description": "",
+            "state": "N/A",
+            "related_tasks": [],
+            "effects": {},
+            "children": {}
+          },
+          "slidejoint": {
+            "description": "",
+            "state": "N/A",
+            "related_tasks": [],
+            "effects": {},
+            "children": {}
+          },
+          "finger_joint2": {
+            "description": "",
+            "state": "N/A",
+            "related_tasks": [],
+            "effects": {},
+            "children": {}
+          },
+          "rightdoorhinge": {
+            "description": "",
+            "state": "N/A",
+            "related_tasks": [],
+            "effects": {},
+            "children": {}
+          }
+        }
+      }
+    }
+  },
+  "coffee_machine": {
+    "class": "coffee_machine",
+    "joints": [],
+    "instances": [
+      "delonghi_espresso",
+      "nespresso",
+      "delonghi_espresso_2",
+      "white"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "counter": {
+    "class": "counter",
+    "joints": [],
+    "instances": [
+      "counter",
+      "counter_with_opening"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "dishwasher": {
+    "class": "dishwasher",
+    "joints": [],
+    "instances": [
+      "pack_2",
+      "pack_1",
+      "basic_stainless"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "fridge": {
+    "class": "fridge",
+    "joints": [],
+    "instances": [
+      "pack_2",
+      "full_height_doors",
+      "modern",
+      "pack_1",
+      "four_doors"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "hood": {
+    "class": "hood",
+    "joints": [],
+    "instances": [
+      "simple_silver",
+      "pack_2",
+      "pack_1",
+      "tall_stainless"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "microwave": {
+    "class": "microwave",
+    "joints": [
+      "microjoint"
+    ],
+    "instances": [
+      "square_with_button",
+      "silver_black_metal",
+      "pack_2",
+      "pack_1",
+      "hamilton_beach",
+      "gray",
+      "standard",
+      "curved_door"
+    ],
+    "ontology": {
+      "object": {
+        "children": {
+          "microjoint": {
+            "description": "",
+            "state": "N/A",
+            "related_tasks": [],
+            "effects": {},
+            "children": {}
+          }
+        }
+      }
+    }
+  },
+  "oven": {
+    "class": "oven",
+    "joints": [],
+    "instances": [
+      "gorenje_dark",
+      "bosch",
+      "gorenje",
+      "pack_1",
+      "beko",
+      "westerfeld"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "sink": {
+    "class": "sink",
+    "joints": [
+      "faucet_joint",
+      "handle_joint",
+      "handle_temp_joint",
+      "knob_hinge_joint",
+      "knob_joint",
+      "spout_joint"
+    ],
+    "instances": [
+      "2_bins_stainless",
+      "1_bin_storage_left_white_silver",
+      "1.5_bins_storage_left_stainless",
+      "2_bins_farmhouse",
+      "2_bins_storage_left_stainless",
+      "concrete_sink",
+      "brown_metal_sink",
+      "1_bin_storage_right_dark",
+      "white_sink",
+      "1_bin_wide_top_handle"
+    ],
+    "ontology": {
+      "object": {
+        "children": {
+          "faucet_joint": {
+            "description": "",
+            "state": "N/A",
+            "related_tasks": [],
+            "effects": {},
+            "children": {}
+          },
+          "knob_hinge_joint": {
+            "description": "",
+            "state": "N/A",
+            "related_tasks": [],
+            "effects": {},
+            "children": {}
+          },
+          "handle_joint": {
+            "description": "",
+            "state": "N/A",
+            "related_tasks": [],
+            "effects": {},
+            "children": {}
+          },
+          "handle_temp_joint": {
+            "description": "",
+            "state": "N/A",
+            "related_tasks": [],
+            "effects": {},
+            "children": {}
+          },
+          "knob_joint": {
+            "description": "",
+            "state": "N/A",
+            "related_tasks": [],
+            "effects": {},
+            "children": {}
+          },
+          "spout_joint": {
+            "description": "",
+            "state": "N/A",
+            "related_tasks": [],
+            "effects": {},
+            "children": {}
+          }
+        }
+      }
+    }
+  },
+  "stove": {
+    "class": "stove",
+    "joints": [
+      "knob_center_joint",
+      "knob_dummy_joint",
+      "knob_front_center_joint",
+      "knob_front_left_joint",
+      "knob_front_right_joint",
+      "knob_oven_left_joint",
+      "knob_oven_right_joint",
+      "knob_rear_center_joint",
+      "knob_rear_left_joint",
+      "knob_rear_right_joint"
+    ],
+    "instances": [
+      "whirlpool_induc",
+      "square_gas",
+      "wolf_gas",
+      "basic_sleek_induc",
+      "coil_burners_induc",
+      "simple_gas",
+      "dual_gas",
+      "zline_gas",
+      "frigidaire_gas"
+    ],
+    "ontology": {
+      "object": {
+        "children": {
+          "knob_front_left_joint": {
+            "description": "",
+            "state": "N/A",
+            "related_tasks": [],
+            "effects": {},
+            "children": {}
+          },
+          "knob_rear_center_joint": {
+            "description": "",
+            "state": "N/A",
+            "related_tasks": [],
+            "effects": {},
+            "children": {}
+          },
+          "knob_dummy_joint": {
+            "description": "",
+            "state": "N/A",
+            "related_tasks": [],
+            "effects": {},
+            "children": {}
+          },
+          "knob_front_right_joint": {
+            "description": "",
+            "state": "N/A",
+            "related_tasks": [],
+            "effects": {},
+            "children": {}
+          },
+          "knob_oven_left_joint": {
+            "description": "",
+            "state": "N/A",
+            "related_tasks": [],
+            "effects": {},
+            "children": {}
+          },
+          "knob_front_center_joint": {
+            "description": "",
+            "state": "N/A",
+            "related_tasks": [],
+            "effects": {},
+            "children": {}
+          },
+          "knob_oven_right_joint": {
+            "description": "",
+            "state": "N/A",
+            "related_tasks": [],
+            "effects": {},
+            "children": {}
+          },
+          "knob_rear_right_joint": {
+            "description": "",
+            "state": "N/A",
+            "related_tasks": [],
+            "effects": {},
+            "children": {}
+          },
+          "knob_center_joint": {
+            "description": "",
+            "state": "N/A",
+            "related_tasks": [],
+            "effects": {},
+            "children": {}
+          },
+          "knob_rear_left_joint": {
+            "description": "",
+            "state": "N/A",
+            "related_tasks": [],
+            "effects": {},
+            "children": {}
+          }
+        }
+      }
+    }
+  },
+  "stovetop": {
+    "class": "stovetop",
+    "joints": [
+      "knob_center",
+      "knob_center_joint",
+      "knob_front_center_joint",
+      "knob_front_left_joint",
+      "knob_front_right_joint",
+      "knob_rear_center_joint",
+      "knob_rear_left_joint",
+      "knob_rear_right_joint"
+    ],
+    "instances": [
+      "alborz_top_gas",
+      "pack_1_top_gas",
+      "pack_1_top_induc",
+      "sleek_silver_top_gas"
+    ],
+    "ontology": {
+      "object": {
+        "children": {
+          "knob_front_left_joint": {
+            "description": "",
+            "state": "N/A",
+            "related_tasks": [],
+            "effects": {},
+            "children": {}
+          },
+          "knob_rear_center_joint": {
+            "description": "",
+            "state": "N/A",
+            "related_tasks": [],
+            "effects": {},
+            "children": {}
+          },
+          "knob_center": {
+            "description": "",
+            "state": "N/A",
+            "related_tasks": [],
+            "effects": {},
+            "children": {}
+          },
+          "knob_front_right_joint": {
+            "description": "",
+            "state": "N/A",
+            "related_tasks": [],
+            "effects": {},
+            "children": {}
+          },
+          "knob_front_center_joint": {
+            "description": "",
+            "state": "N/A",
+            "related_tasks": [],
+            "effects": {},
+            "children": {}
+          },
+          "knob_rear_right_joint": {
+            "description": "",
+            "state": "N/A",
+            "related_tasks": [],
+            "effects": {},
+            "children": {}
+          },
+          "knob_center_joint": {
+            "description": "",
+            "state": "N/A",
+            "related_tasks": [],
+            "effects": {},
+            "children": {}
+          },
+          "knob_rear_left_joint": {
+            "description": "",
+            "state": "N/A",
+            "related_tasks": [],
+            "effects": {},
+            "children": {}
+          }
+        }
+      }
+    }
+  },
+  "toaster": {
+    "class": "toaster",
+    "joints": [],
+    "instances": [
+      "basic_popup",
+      "boxy",
+      "vintage",
+      "basic_popup_2",
+      "fancy"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "alcohol": {
+    "class": "alcohol",
+    "instances": [
+      "alcohol_1",
+      "alcohol_12",
+      "alcohol_5",
+      "alcohol_9",
+      "alcohol_4",
+      "alcohol_13",
+      "alcohol_14",
+      "alcohol_0",
+      "alcohol_7",
+      "alcohol_10",
+      "alcohol_2",
+      "alcohol_11"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "apple": {
+    "class": "apple",
+    "instances": [
+      "apple_22",
+      "apple_21",
+      "apple_18",
+      "apple_15",
+      "apple_11",
+      "apple_8",
+      "apple_14",
+      "apple_12",
+      "apple_3",
+      "apple_17",
+      "apple_10",
+      "apple_2",
+      "apple_19",
+      "apple_6",
+      "apple_1",
+      "apple_20",
+      "apple_0",
+      "apple_4",
+      "apple_5",
+      "apple_7",
+      "apple_9",
+      "apple_13"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "avocado": {
+    "class": "avocado",
+    "instances": [
+      "avocado_8",
+      "avocado_0",
+      "avocado_6",
+      "avocado_4",
+      "avocado_5",
+      "avocado_2",
+      "avocado_1"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "bagel": {
+    "class": "bagel",
+    "instances": [
+      "bagel_1",
+      "bagel_5",
+      "bagel_9",
+      "bagel_6",
+      "bagel_2",
+      "bagel_4",
+      "bagel_3",
+      "bagel_0",
+      "bagel_7"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "bagged_food": {
+    "class": "bagged_food",
+    "instances": [
+      "bagged_food_4",
+      "bagged_food_5",
+      "bagged_food_14",
+      "bagged_food_3",
+      "bagged_food_0",
+      "bagged_food_8",
+      "bagged_food_9",
+      "bagged_food_7",
+      "bagged_food_11"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "baguette": {
+    "class": "baguette",
+    "instances": [
+      "baguette_1",
+      "baguette_5",
+      "baguette_0",
+      "baguette_4",
+      "baguette_2",
+      "baguette_6"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "banana": {
+    "class": "banana",
+    "instances": [
+      "banana_9",
+      "banana_15",
+      "banana_13",
+      "banana_20",
+      "banana_19",
+      "banana_10",
+      "banana_7",
+      "banana_16",
+      "banana_1",
+      "banana_12",
+      "banana_18",
+      "banana_11",
+      "banana_6",
+      "banana_21",
+      "banana_5",
+      "banana_24",
+      "banana_4",
+      "banana_14",
+      "banana_2",
+      "banana_3",
+      "banana_8",
+      "banana_22",
+      "banana_23"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "bar": {
+    "class": "bar",
+    "instances": [
+      "bar_6",
+      "bar_9",
+      "bar_3",
+      "bar_10",
+      "bar_2",
+      "bar_11",
+      "bar_4",
+      "bar_7",
+      "bar_8",
+      "bar_0"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "bar_soap": {
+    "class": "bar_soap",
+    "instances": [
+      "bar_soap_4",
+      "bar_soap_0",
+      "bar_soap_1",
+      "bar_soap_3"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "beer": {
+    "class": "beer",
+    "instances": [
+      "beer_1",
+      "beer_6",
+      "beer_11",
+      "beer_16",
+      "beer_19",
+      "beer_2",
+      "beer_3",
+      "beer_15",
+      "beer_18",
+      "beer_13",
+      "beer_7",
+      "beer_5",
+      "beer_10",
+      "beer_8",
+      "beer_0",
+      "beer_12",
+      "beer_9"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "bell_pepper": {
+    "class": "bell_pepper",
+    "instances": [
+      "bell_pepper_3",
+      "bell_pepper_0",
+      "bell_pepper_2",
+      "bell_pepper_1"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "bottled_drink": {
+    "class": "bottled_drink",
+    "instances": [
+      "bottled_drink_4",
+      "bottled_drink_0",
+      "bottled_drink_5",
+      "bottled_drink_2",
+      "bottled_drink_1"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "bottled_water": {
+    "class": "bottled_water",
+    "instances": [
+      "bottled_water_12",
+      "bottled_water_16",
+      "bottled_water_17",
+      "bottled_water_10",
+      "bottled_water_7",
+      "bottled_water_3",
+      "bottled_water_2",
+      "bottled_water_8",
+      "bottled_water_14",
+      "bottled_water_4",
+      "bottled_water_13",
+      "bottled_water_11",
+      "bottled_water_6",
+      "bottled_water_1"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "bowl": {
+    "class": "bowl",
+    "instances": [
+      "bowl_11",
+      "bowl_6",
+      "bowl_0",
+      "bowl_19",
+      "bowl_12",
+      "bowl_4",
+      "bowl_7",
+      "bowl_2",
+      "bowl_8",
+      "bowl_3",
+      "bowl_1",
+      "bowl_17",
+      "bowl_16",
+      "bowl_18",
+      "bowl_5",
+      "bowl_9",
+      "bowl_13",
+      "bowl_10",
+      "bowl_15",
+      "bowl_14"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "boxed_drink": {
+    "class": "boxed_drink",
+    "instances": [
+      "boxed_drink_0",
+      "boxed_drink_1",
+      "boxed_drink_7",
+      "boxed_drink_5",
+      "boxed_drink_4",
+      "boxed_drink_3",
+      "boxed_drink_2"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "boxed_food": {
+    "class": "boxed_food",
+    "instances": [
+      "boxed_food_2",
+      "boxed_food_8",
+      "boxed_food_6",
+      "boxed_food_7",
+      "boxed_food_4",
+      "boxed_food_0",
+      "boxed_food_10",
+      "boxed_food_1",
+      "boxed_food_11",
+      "boxed_food_9"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "bread": {
+    "class": "bread",
+    "instances": [
+      "bread_18",
+      "bread_1",
+      "bread_16",
+      "bread_10",
+      "bread_19",
+      "bread_11",
+      "bread_4",
+      "bread_20",
+      "bread_17",
+      "bread_8",
+      "bread_14",
+      "bread_13",
+      "bread_2",
+      "bread_21",
+      "bread_9",
+      "bread_7",
+      "bread_5",
+      "bread_3",
+      "bread_6",
+      "bread_0"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "broccoli": {
+    "class": "broccoli",
+    "instances": [
+      "broccoli_1",
+      "broccoli_3",
+      "broccoli_0"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "cake": {
+    "class": "cake",
+    "instances": [
+      "cake_6",
+      "cake_2",
+      "cake_5",
+      "cake_1",
+      "cake_0",
+      "cake_7",
+      "cake_8",
+      "cake_9",
+      "cake_4",
+      "cake_3"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "can": {
+    "class": "can",
+    "instances": [
+      "can_17",
+      "can_15",
+      "can_18",
+      "can_9",
+      "can_13",
+      "can_3",
+      "can_6",
+      "can_2",
+      "can_11",
+      "can_8",
+      "can_16",
+      "can_12",
+      "can_4",
+      "can_0"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "candle": {
+    "class": "candle",
+    "instances": [
+      "candle_13",
+      "candle_8",
+      "candle_14",
+      "candle_6",
+      "candle_7",
+      "candle_2",
+      "candle_3",
+      "candle_0",
+      "candle_10",
+      "candle_15",
+      "candle_5",
+      "candle_12",
+      "candle_1",
+      "candle_4",
+      "candle_9"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "canned_food": {
+    "class": "canned_food",
+    "instances": [
+      "canned_food_11",
+      "canned_food_5",
+      "canned_food_6",
+      "canned_food_3",
+      "canned_food_0",
+      "canned_food_9",
+      "canned_food_1",
+      "canned_food_13",
+      "canned_food_18",
+      "canned_food_19",
+      "canned_food_8",
+      "canned_food_15",
+      "canned_food_17",
+      "canned_food_14",
+      "canned_food_10",
+      "canned_food_4"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "carrot": {
+    "class": "carrot",
+    "instances": [
+      "carrot_6",
+      "carrot_4",
+      "carrot_3",
+      "carrot_0",
+      "carrot_1",
+      "carrot_7",
+      "carrot_2"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "cereal": {
+    "class": "cereal",
+    "instances": [
+      "cereal_9",
+      "cereal_10",
+      "cereal_5",
+      "cereal_4",
+      "cereal_12",
+      "cereal_6",
+      "cereal_0",
+      "cereal_7",
+      "cereal_11",
+      "cereal_8",
+      "cereal_1",
+      "cereal_3",
+      "cereal_13",
+      "cereal_2"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "cheese": {
+    "class": "cheese",
+    "instances": [
+      "cheese_4",
+      "cheese_2",
+      "cheese_8",
+      "cheese_0",
+      "cheese_6",
+      "cheese_1",
+      "cheese_5",
+      "cheese_3",
+      "cheese_7"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "chips": {
+    "class": "chips",
+    "instances": [
+      "chips_6",
+      "chips_2",
+      "chips_7",
+      "chips_10",
+      "chips_15",
+      "chips_3",
+      "chips_13",
+      "chips_1",
+      "chips_4",
+      "chips_0",
+      "chips_14",
+      "chips_8",
+      "chips_9",
+      "chips_16",
+      "chips_11",
+      "chips_5"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "chocolate": {
+    "class": "chocolate",
+    "instances": [
+      "chocolate_1",
+      "chocolate_7",
+      "chocolate_6",
+      "chocolate_11",
+      "chocolate_3",
+      "chocolate_0",
+      "chocolate_2",
+      "chocolate_13",
+      "chocolate_9",
+      "chocolate_12",
+      "chocolate_8",
+      "chocolate_10",
+      "chocolate_14",
+      "chocolate_4",
+      "chocolate_5"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "coffee_cup": {
+    "class": "coffee_cup",
+    "instances": [
+      "coffee_cup_11",
+      "coffee_cup_9",
+      "coffee_cup_20",
+      "coffee_cup_2",
+      "coffee_cup_7",
+      "coffee_cup_17",
+      "coffee_cup_1",
+      "coffee_cup_10",
+      "coffee_cup_8",
+      "coffee_cup_4",
+      "coffee_cup_21",
+      "coffee_cup_12",
+      "coffee_cup_6",
+      "coffee_cup_14",
+      "coffee_cup_3",
+      "coffee_cup_16",
+      "coffee_cup_15",
+      "coffee_cup_13"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "condiment": {
+    "class": "condiment",
+    "instances": [
+      "condiment_2",
+      "condiment_3",
+      "condiment_0"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "corn": {
+    "class": "corn",
+    "instances": [
+      "corn_4",
+      "corn_0",
+      "corn_1",
+      "corn_3"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "croissant": {
+    "class": "croissant",
+    "instances": [
+      "croissant_0",
+      "croissant_5",
+      "croissant_6",
+      "croissant_3",
+      "croissant_9",
+      "croissant_8",
+      "croissant_2",
+      "croissant_10",
+      "croissant_1",
+      "croissant_4"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "cucumber": {
+    "class": "cucumber",
+    "instances": [
+      "cucumber_1",
+      "cucumber_5",
+      "cucumber_0",
+      "cucumber_2",
+      "cucumber_4",
+      "cucumber_3"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "cup": {
+    "class": "cup",
+    "instances": [
+      "cup_3",
+      "cup_4",
+      "cup_2",
+      "cup_5"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "cutting_board": {
+    "class": "cutting_board",
+    "instances": [
+      "cutting_board_9",
+      "cutting_board_4",
+      "cutting_board_1",
+      "cutting_board_5",
+      "cutting_board_12",
+      "cutting_board_7",
+      "cutting_board_16",
+      "cutting_board_15",
+      "cutting_board_2",
+      "cutting_board_13",
+      "cutting_board_0",
+      "cutting_board_11"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "donut": {
+    "class": "donut",
+    "instances": [
+      "donut_11",
+      "donut_13",
+      "donut_2",
+      "donut_12",
+      "donut_5",
+      "donut_8",
+      "donut_15",
+      "donut_0",
+      "donut_1",
+      "donut_10",
+      "donut_7",
+      "donut_6",
+      "donut_14",
+      "donut_4",
+      "donut_3",
+      "donut_9"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "egg": {
+    "class": "egg",
+    "instances": [
+      "egg_10",
+      "egg_12",
+      "egg_9",
+      "egg_7",
+      "egg_11",
+      "egg_13",
+      "egg_0",
+      "egg_4",
+      "egg_6",
+      "egg_1",
+      "egg_3",
+      "egg_8",
+      "egg_5"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "eggplant": {
+    "class": "eggplant",
+    "instances": [
+      "eggplant_1",
+      "eggplant_0",
+      "eggplant_4",
+      "eggplant_3",
+      "eggplant_2"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "fish": {
+    "class": "fish",
+    "instances": [
+      "fish_3",
+      "fish_10",
+      "fish_6",
+      "fish_8",
+      "fish_11",
+      "fish_4",
+      "fish_0",
+      "fish_9",
+      "fish_7",
+      "fish_5",
+      "fish_1",
+      "fish_2"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "fork": {
+    "class": "fork",
+    "instances": [
+      "fork_0",
+      "fork_1",
+      "fork_8",
+      "fork_6",
+      "fork_5",
+      "fork_11",
+      "fork_10",
+      "fork_4",
+      "fork_2",
+      "fork_9",
+      "fork_7",
+      "fork_3"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "garlic": {
+    "class": "garlic",
+    "instances": [
+      "garlic_4",
+      "garlic_0",
+      "garlic_2",
+      "garlic_1",
+      "garlic_5"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "hot_dog": {
+    "class": "hot_dog",
+    "instances": [
+      "hot_dog_4",
+      "hot_dog_3",
+      "hot_dog_6",
+      "hot_dog_0",
+      "hot_dog_1",
+      "hot_dog_5",
+      "hot_dog_2"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "jam": {
+    "class": "jam",
+    "instances": [
+      "jam_5",
+      "jam_2",
+      "jam_0",
+      "jam_6",
+      "jam_3",
+      "jam_1",
+      "jam_4"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "jug": {
+    "class": "jug",
+    "instances": [
+      "jug_8",
+      "jug_2",
+      "jug_1",
+      "jug_0",
+      "jug_4",
+      "jug_6",
+      "jug_7",
+      "jug_3",
+      "jug_5"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "ketchup": {
+    "class": "ketchup",
+    "instances": [
+      "ketchup_7",
+      "ketchup_0",
+      "ketchup_9",
+      "ketchup_1",
+      "ketchup_11",
+      "ketchup_8",
+      "ketchup_4",
+      "ketchup_3",
+      "ketchup_10",
+      "ketchup_2"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "kettle": {
+    "class": "kettle",
+    "instances": [
+      "kettle_26",
+      "kettle_11",
+      "kettle_6",
+      "kettle_13",
+      "kettle_9",
+      "kettle_2",
+      "kettle_18",
+      "kettle_8",
+      "kettle_4",
+      "kettle_17",
+      "kettle_20",
+      "kettle_22",
+      "kettle_16",
+      "kettle_5",
+      "kettle_23",
+      "kettle_28",
+      "kettle_12",
+      "kettle_27",
+      "kettle_19",
+      "kettle_10",
+      "kettle_14",
+      "kettle_3",
+      "kettle_7",
+      "kettle_1",
+      "kettle_24",
+      "kettle_21",
+      "kettle_0"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "kiwi": {
+    "class": "kiwi",
+    "instances": [
+      "kiwi_6",
+      "kiwi_2",
+      "kiwi_7",
+      "kiwi_1",
+      "kiwi_4",
+      "kiwi_5",
+      "kiwi_0"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "knife": {
+    "class": "knife",
+    "instances": [
+      "knife_17",
+      "knife_23",
+      "knife_27",
+      "knife_12",
+      "knife_5",
+      "knife_11",
+      "knife_10",
+      "knife_9",
+      "knife_21",
+      "knife_25",
+      "knife_26",
+      "knife_6",
+      "knife_15",
+      "knife_4",
+      "knife_18",
+      "knife_1",
+      "knife_22",
+      "knife_2",
+      "knife_20",
+      "knife_3",
+      "knife_19",
+      "knife_0",
+      "knife_8",
+      "knife_16",
+      "knife_7",
+      "knife_13",
+      "knife_24"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "ladle": {
+    "class": "ladle",
+    "instances": [
+      "ladle_3",
+      "ladle_2",
+      "ladle_0",
+      "ladle_1",
+      "ladle_4"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "lemon": {
+    "class": "lemon",
+    "instances": [
+      "lemon_12",
+      "lemon_9",
+      "lemon_2",
+      "lemon_4",
+      "lemon_14",
+      "lemon_17",
+      "lemon_8",
+      "lemon_10",
+      "lemon_3",
+      "lemon_6",
+      "lemon_15",
+      "lemon_0",
+      "lemon_13",
+      "lemon_5",
+      "lemon_16",
+      "lemon_1",
+      "lemon_11",
+      "lemon_7"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "lime": {
+    "class": "lime",
+    "instances": [
+      "lime_3",
+      "lime_2",
+      "lime_1",
+      "lime_0"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "mango": {
+    "class": "mango",
+    "instances": [
+      "mango_9",
+      "mango_19",
+      "mango_18",
+      "mango_12",
+      "mango_10",
+      "mango_11",
+      "mango_8",
+      "mango_14",
+      "mango_7",
+      "mango_15",
+      "mango_16",
+      "mango_5",
+      "mango_4",
+      "mango_1",
+      "mango_13"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "milk": {
+    "class": "milk",
+    "instances": [
+      "milk_5",
+      "milk_7",
+      "milk_9",
+      "milk_1",
+      "milk_0",
+      "milk_4",
+      "milk_3",
+      "milk_10"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "mug": {
+    "class": "mug",
+    "instances": [
+      "mug_10",
+      "mug_7",
+      "mug_13",
+      "mug_1",
+      "mug_9",
+      "mug_3",
+      "mug_12",
+      "mug_14",
+      "mug_2",
+      "mug_16",
+      "mug_18",
+      "mug_4",
+      "mug_0",
+      "mug_11",
+      "mug_17",
+      "mug_8",
+      "mug_15",
+      "mug_5"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "mushroom": {
+    "class": "mushroom",
+    "instances": [
+      "mushroom_0",
+      "mushroom_10",
+      "mushroom_12",
+      "mushroom_3",
+      "mushroom_6",
+      "mushroom_14",
+      "mushroom_13",
+      "mushroom_4",
+      "mushroom_9",
+      "mushroom_1",
+      "mushroom_8",
+      "mushroom_7",
+      "mushroom_15",
+      "mushroom_5",
+      "mushroom_2",
+      "mushroom_11"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "onion": {
+    "class": "onion",
+    "instances": [
+      "onion_6",
+      "onion_4",
+      "onion_7",
+      "onion_2",
+      "onion_10",
+      "onion_1",
+      "onion_3",
+      "onion_0",
+      "onion_9",
+      "onion_8"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "orange": {
+    "class": "orange",
+    "instances": [
+      "orange_11",
+      "orange_9",
+      "orange_0",
+      "orange_3",
+      "orange_2",
+      "orange_12",
+      "orange_4",
+      "orange_8",
+      "orange_13",
+      "orange_1",
+      "orange_10",
+      "orange_5"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "pan": {
+    "class": "pan",
+    "instances": [
+      "pan_23",
+      "pan_7",
+      "pan_19",
+      "pan_8",
+      "pan_4",
+      "pan_20",
+      "pan_10",
+      "pan_22",
+      "pan_2",
+      "pan_5",
+      "pan_14",
+      "pan_13",
+      "pan_21",
+      "pan_17",
+      "pan_9",
+      "pan_11",
+      "pan_15",
+      "pan_6",
+      "pan_0",
+      "pan_1",
+      "pan_3",
+      "pan_18",
+      "pan_24"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "peach": {
+    "class": "peach",
+    "instances": [
+      "peach_5",
+      "peach_3",
+      "peach_0",
+      "peach_6",
+      "peach_1",
+      "peach_2",
+      "peach_4"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "pear": {
+    "class": "pear",
+    "instances": [
+      "pear_13",
+      "pear_5",
+      "pear_3",
+      "pear_11",
+      "pear_15",
+      "pear_19",
+      "pear_12",
+      "pear_8",
+      "pear_10",
+      "pear_6",
+      "pear_2",
+      "pear_0",
+      "pear_18",
+      "pear_17",
+      "pear_1",
+      "pear_16"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "plate": {
+    "class": "plate",
+    "instances": [
+      "plate_15",
+      "plate_9",
+      "plate_19",
+      "plate_2",
+      "plate_12",
+      "plate_11",
+      "plate_4",
+      "plate_8",
+      "plate_7",
+      "plate_1",
+      "plate_13",
+      "plate_10",
+      "plate_5",
+      "plate_20",
+      "plate_0",
+      "plate_17",
+      "plate_14",
+      "plate_3"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "potato": {
+    "class": "potato",
+    "instances": [
+      "potato_2",
+      "potato_9",
+      "potato_12",
+      "potato_10",
+      "potato_11",
+      "potato_17",
+      "potato_4",
+      "potato_0",
+      "potato_6",
+      "potato_7",
+      "potato_19",
+      "potato_8",
+      "potato_13",
+      "potato_16",
+      "potato_18",
+      "potato_14",
+      "potato_3",
+      "potato_1",
+      "potato_5"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "rolling_pin": {
+    "class": "rolling_pin",
+    "instances": [
+      "rolling_pin_0",
+      "rolling_pin_1",
+      "rolling_pin_4",
+      "rolling_pin_3",
+      "rolling_pin_5",
+      "rolling_pin_2"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "scissors": {
+    "class": "scissors",
+    "instances": [
+      "scissors_10",
+      "scissors_8",
+      "scissors_1",
+      "scissors_12",
+      "scissors_9",
+      "scissors_11",
+      "scissors_0",
+      "scissors_6",
+      "scissors_4",
+      "scissors_13",
+      "scissors_3"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "shaker": {
+    "class": "shaker",
+    "instances": [
+      "shaker_2",
+      "shaker_3",
+      "shaker_0",
+      "shaker_1"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "soap_dispenser": {
+    "class": "soap_dispenser",
+    "instances": [
+      "soap_dispenser_2",
+      "soap_dispenser_4",
+      "soap_dispenser_6",
+      "soap_dispenser_1",
+      "soap_dispenser_3",
+      "soap_dispenser_0"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "spatula": {
+    "class": "spatula",
+    "instances": [
+      "spatula_2",
+      "spatula_9",
+      "spatula_13",
+      "spatula_3",
+      "spatula_11",
+      "spatula_7",
+      "spatula_5",
+      "spatula_6",
+      "spatula_1",
+      "spatula_12",
+      "spatula_0",
+      "spatula_4",
+      "spatula_8",
+      "spatula_10"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "sponge": {
+    "class": "sponge",
+    "instances": [
+      "sponge_8",
+      "sponge_3",
+      "sponge_4",
+      "sponge_6",
+      "sponge_1",
+      "sponge_0",
+      "sponge_5",
+      "sponge_2"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "spoon": {
+    "class": "spoon",
+    "instances": [
+      "spoon_4",
+      "spoon_15",
+      "spoon_17",
+      "spoon_5",
+      "spoon_11",
+      "spoon_22",
+      "spoon_8",
+      "spoon_9",
+      "spoon_10",
+      "spoon_7",
+      "spoon_14",
+      "spoon_23",
+      "spoon_19",
+      "spoon_18",
+      "spoon_20",
+      "spoon_21",
+      "spoon_0",
+      "spoon_12",
+      "spoon_3",
+      "spoon_6",
+      "spoon_1",
+      "spoon_13",
+      "spoon_2",
+      "spoon_16"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "spray": {
+    "class": "spray",
+    "instances": [
+      "spray_2",
+      "spray_1",
+      "spray_0"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "squash": {
+    "class": "squash",
+    "instances": [
+      "squash_1",
+      "squash_5",
+      "squash_3",
+      "squash_13",
+      "squash_15",
+      "squash_16",
+      "squash_7",
+      "squash_8",
+      "squash_0"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "steak": {
+    "class": "steak",
+    "instances": [
+      "steak_9",
+      "steak_2",
+      "steak_15",
+      "steak_14",
+      "steak_3",
+      "steak_11",
+      "steak_10",
+      "steak_4",
+      "steak_6",
+      "steak_5",
+      "steak_8"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "sweet_potato": {
+    "class": "sweet_potato",
+    "instances": [
+      "sweet_potato_1",
+      "sweet_potato_3",
+      "sweet_potato_2"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "tangerine": {
+    "class": "tangerine",
+    "instances": [
+      "tangerine_3",
+      "tangerine_1",
+      "tangerine_5",
+      "tangerine_4",
+      "tangerine_6",
+      "tangerine_2",
+      "tangerine_0"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "teapot": {
+    "class": "teapot",
+    "instances": [
+      "teapot_13",
+      "teapot_10",
+      "teapot_14",
+      "teapot_4",
+      "teapot_3",
+      "teapot_0",
+      "teapot_7",
+      "teapot_5",
+      "teapot_6",
+      "teapot_15",
+      "teapot_11"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "tomato": {
+    "class": "tomato",
+    "instances": [
+      "tomato_8",
+      "tomato_1",
+      "tomato_6",
+      "tomato_3",
+      "tomato_2",
+      "tomato_0",
+      "tomato_7",
+      "tomato_5"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "tray": {
+    "class": "tray",
+    "instances": [
+      "tray_2",
+      "tray_4",
+      "tray_10",
+      "tray_3",
+      "tray_12",
+      "tray_11",
+      "tray_1",
+      "tray_9",
+      "tray_0",
+      "tray_5",
+      "tray_7"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "waffle": {
+    "class": "waffle",
+    "instances": [
+      "waffle_3",
+      "waffle_1",
+      "waffle_0",
+      "waffle_4"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "water_bottle": {
+    "class": "water_bottle",
+    "instances": [
+      "water_bottle_15",
+      "water_bottle_3",
+      "water_bottle_20",
+      "water_bottle_17",
+      "water_bottle_12",
+      "water_bottle_2",
+      "water_bottle_23",
+      "water_bottle_1",
+      "water_bottle_16",
+      "water_bottle_6",
+      "water_bottle_13",
+      "water_bottle_5",
+      "water_bottle_18",
+      "water_bottle_10",
+      "water_bottle_4",
+      "water_bottle_9",
+      "water_bottle_0",
+      "water_bottle_7",
+      "water_bottle_22",
+      "water_bottle_21",
+      "water_bottle_19",
+      "water_bottle_8"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "wine": {
+    "class": "wine",
+    "instances": [
+      "wine_9",
+      "wine_1",
+      "wine_12",
+      "wine_11",
+      "wine_6",
+      "wine_8",
+      "wine_5",
+      "wine_4",
+      "wine_3",
+      "wine_13",
+      "wine_10",
+      "wine_2"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  },
+  "yogurt": {
+    "class": "yogurt",
+    "instances": [
+      "yogurt_2",
+      "yogurt_1",
+      "yogurt_3"
+    ],
+    "ontology": {
+      "object": {
+        "children": {}
+      }
+    }
+  }
+}
