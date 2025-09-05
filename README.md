@@ -15,5 +15,5 @@ You can issue commands such as:
 - **Digital Twin** → Executes the plan in simulation (e.g., RoboCasa, CALVIN)  
 - **VLM** → Validates whether the intended task was successfully completed  
 
-Originally developed for **RoboCasa**, but easily adaptable to other benchmarks — tested also on **CALVIN**.
+Originally developed for **RoboCasa**, but easily adaptable to other environment — tested also on **CALVIN**.
 
